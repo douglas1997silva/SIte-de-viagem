@@ -1,4 +1,9 @@
 @import url(./styles/cabecalho.css);
+:root{
+    --cor-de-texto:#ffffff;
+}
  body{
-    background: url(.//Img/Rectangle\ 4.png)no-repeat;
+    background: url(.//Img/Rectangle\ 4.png)no-repeat 30%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
  }
