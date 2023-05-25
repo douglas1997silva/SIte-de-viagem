@@ -1,0 +1,46 @@
+.discover{
+    background: url(../Img/banner\ do\ aviao.png);
+
+
+
+}
+.banner-aviao{
+    width: 100%}
+.container{
+   display: inline-block;
+   position: relative;
+}
+.container h2 {
+    position: absolute;
+    top: 100px;
+    right:  55px;
+    font-size: 133px;
+    font-weight: 800;
+    line-height: 161px;
+    letter-spacing: 0.495em;
+    color: var(--borda);
+  }
+  .container p{
+    position: absolute;
+   top: 250px;
+   right: 105px;
+   font-size: 34px;
+   font-weight: 800;
+   color:var(--borda);
+   line-height: 41px;
+   letter-spacing: 0.495em;
+  }
+  .container button{
+    position: absolute;
+    top: 400px;
+    right: 500px;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--borda);
+    line-height: 19px;
+    background: var(--cor-do-botao);
+    border-radius: 84px;
+    width: 344px;
+    height: 56px;
+    border: none;
+  }

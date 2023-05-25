@@ -1,0 +1,39 @@
+.viagem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:var(--cor-de-texto);
+    padding: 3rem 0;
+}
+.viagem-imagem{
+    width: 300px;
+    height:450px;
+    gap: 0 1rem;
+    
+   
+}
+.imagem{
+    width: 150px;
+    height:450px;
+
+}
+.viagem-titulo{
+    width: 15%;
+    letter-spacing: 0.09em;
+    margin-left: 5rem ;
+    
+}
+.titulo{
+ color: var(--borda);
+ font-size: 44px;
+ font-weight: 800;
+}
+.espaco-imagem{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 2rem;
+    width: 85%;
+    
+    
+    
+}

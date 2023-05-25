@@ -1,11 +1,19 @@
 @import url(./styles/cabecalho.css);
 @import url(./styles/banner.css);
+@import url(./styles/viagem.css);
+@import url(./styles/discover.css);
 :root{
     --cor-de-texto:#ffffff;
     --borda:#000000;
+    --cor-do-botao:#F0AA21;
 }
+
+    
+
  body{
-    background: url(.//Img/Rectangle\ 4.png)no-repeat 30%;
+    background: url(.//Img/Rectangle\ 4.png)no-repeat 100%;
+    background-position: top;
+    background-size: 1400px;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
  }
