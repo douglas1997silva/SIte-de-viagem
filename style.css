@@ -2,10 +2,17 @@
 @import url(./styles/banner.css);
 @import url(./styles/viagem.css);
 @import url(./styles/discover.css);
+@import url(./styles/topicos.css);
+@import url(./styles/rodape.css);
 :root{
     --cor-de-texto:#ffffff;
     --borda:#000000;
     --cor-do-botao:#F0AA21;
+    --topico-texto:#D8D2D2;
+    --fundo-rodape:#181818;
+    --fundo-do-input:#F4E8E8;
+    --placehouder:#AFA0A0;
+    --cor-de-creditos:#696060;
 }
 
     

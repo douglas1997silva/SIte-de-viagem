@@ -43,4 +43,10 @@
     width: 344px;
     height: 56px;
     border: none;
+    cursor: pointer;
+  }
+  .container button:hover{
+    color: var(--cor-do-botao);
+    background: var(--borda);
+    transition: 250ms;
   }

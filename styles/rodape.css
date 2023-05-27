@@ -1,0 +1,137 @@
+.rodape{
+    width: 100%;
+    background: var(--fundo-rodape);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+}
+.container-rodape_redes{
+    width: 30%;
+    padding: 1rem 1rem;
+    
+}
+.rodape-redes_itens{
+    margin: 1rem;
+    
+    
+}
+.rodape-redes_itens_aviao{
+    color: var(--cor-de-texto);
+    font-weight: 800;
+    font-size:20px ;
+    align-self: center;
+    margin: 1rem;
+}
+.rodape-texto{
+    color: var(--cor-de-texto);
+    font-size:15px ;
+    font-weight: 400;
+}
+.rodape-redes_itens img{
+    margin: 0 0.5rem 0 0;
+    border-radius: 5px;
+}
+
+.rodape-lista{
+    margin: 1rem;
+}
+.container-rodape_lista{
+    width: 20%;
+}
+.rodape-itens-titulo{
+    color: var(--cor-de-texto);
+    font-weight: 800;
+    font-size: 20px;
+    margin: 1rem;
+}
+.rodape-itens a{
+    text-decoration: none;
+    color: var(--cor-de-texto);
+    font-size: 20px;
+    font-weight: 400;
+}
+.rodape-itens a:hover{
+    border-bottom: 1px solid var(--cor-de-texto);
+    color: var(--cor-de-creditos);
+    transition: 150ms;
+}
+.rodape-itens{
+    margin: 1rem;
+}
+.container-roadape_caixa{
+    width: 30%;
+    
+    
+}
+.rodape-caixas_itens{
+    margin: 1rem;
+}
+.rodape-lista_caixa{
+    
+   margin-top: -4rem ;
+}
+.rodape-caixas_itens_titulo{
+    color: var(--cor-de-texto);
+    font-size: 20px;
+    font-weight: 800;
+    margin: 1rem;
+}
+.rodape-caixas_itens{
+   color: var(--cor-de-texto);
+   font-size: 15px;
+   font-weight: 400;
+}
+.rodape-caixas_itens_input{
+    margin: 1rem;
+    display: inline-block;
+    position: relative;
+}
+.caixa-input{
+    width: 380px;
+    height: 40px;
+    border-radius: 118px;
+    background: var(--fundo-do-input);
+    border: none;
+    outline: none;
+    text-align: flex-start;
+}
+.caixa-input::placeholder{
+    color: var(--placehouder);
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.5;
+    padding: 0 2rem;
+    margin-left: 2rem;
+    
+
+
+}
+.rodape-caixas_itens_input button{
+    position: absolute;
+    top: 0px;
+    right:0px;
+    font-size: 16px;
+    width: 120px;
+    height: 42px;
+    border-radius: 118px;
+    border: none;
+    background: var(--cor-do-botao);
+    color: var(--borda);
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.rodape-creditos{
+   padding: 0 2rem;
+   color:var(--cor-de-creditos);
+   font-size: 25px;
+   font-weight: 400;
+   text-align: end;
+   margin-top: 3rem;
+}
+.rodape-creditos:hover{
+    color: var(--cor-de-texto);
+    transition: 350ms;
+}
