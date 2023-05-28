@@ -7,6 +7,7 @@
     padding: 2rem 0;
     flex-wrap: wrap;
 }
+/*primeira div*/
 .container-rodape_redes{
     width: 30%;
     padding: 1rem 1rem;
@@ -37,6 +38,7 @@
 .rodape-lista{
     margin: 1rem;
 }
+/*segunda div*/
 .container-rodape_lista{
     width: 20%;
 }
@@ -60,6 +62,7 @@
 .rodape-itens{
     margin: 1rem;
 }
+/* terceira div*/
 .container-roadape_caixa{
     width: 30%;
     
@@ -111,17 +114,22 @@
 .rodape-caixas_itens_input button{
     position: absolute;
     top: 0px;
-    right:0px;
+    right:-1px;
     font-size: 16px;
     width: 120px;
     height: 42px;
-    border-radius: 118px;
+    border-radius: 117px;
     border: none;
     background: var(--cor-do-botao);
     color: var(--borda);
     font-weight: 600;
     cursor: pointer;
 
+}
+.rodape-caixas_itens_input button:hover{
+    color: var(--cor-do-botao);
+    background: var(--borda);
+    transition: 350ms;
 }
 .rodape-creditos{
    padding: 0 2rem;
@@ -133,5 +141,39 @@
 }
 .rodape-creditos:hover{
     color: var(--cor-de-texto);
-    transition: 350ms;
+    transition: 150ms;
+}
+@media(max-width:720px){
+    .container-rodape_redes{
+        display: none;
+    }
+    .container-rodape_lista{
+        display: none;
+    }
+    .container-roadape_caixa{
+        padding: 2rem 2rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .rodape-creditos{
+        font-size: 15px;
+    }
+}
+@media(width:360px){
+    .rodape-creditos{
+        font-size: 10px;
+    }
+    .rodape-caixas_itens_input button{
+        width: 50px;
+        height: 22px;
+        font-size: 10px;
+    }
+    .caixa-input{
+        width: 180px;
+        height: 20px;
+    }
+    .caixa-input::placeholder{
+        font-size: 10px;
+    }
 }

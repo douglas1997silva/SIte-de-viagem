@@ -1,17 +1,29 @@
-.discover{
-    background: url(../Img/banner\ do\ aviao.png);
-
-
-
+.discorver{
+  width: 100%;
+  
+  
+ 
 }
-.banner-aviao{
-    width: 100%}
+
 .container{
-   display: inline-block;
-   position: relative;
+  display: grid;
+  grid-template-areas: 
+  "h2 h2"
+  "h2 h2"
+  "p p"
+  "p p"
+  "b b";
+  grid-template-rows: 6fr;
+  justify-content: center;
+  padding: 3rem 0 0 0;
+  align-items: end;
+ 
+
 }
-.container h2 {
-    position: absolute;
+/*titulo*/
+.discover-titulo {
+    grid-area: h2;
+    grid-row: 1/3;
     top: 100px;
     right:  55px;
     font-size: 133px;
@@ -19,9 +31,14 @@
     line-height: 161px;
     letter-spacing: 0.495em;
     color: var(--borda);
+    
   }
-  .container p{
-    position: absolute;
+  /*o paragrafo*/
+  .discover-texto{
+   
+   grid-area: p;
+   grid-column: 2/3;
+  grid-row: 3/4;
    top: 250px;
    right: 105px;
    font-size: 34px;
@@ -29,11 +46,22 @@
    color:var(--borda);
    line-height: 41px;
    letter-spacing: 0.495em;
+
   }
-  .container button{
-    position: absolute;
-    top: 400px;
-    right: 500px;
+  /* botao*/
+  
+  .container  button{
+    grid-area: b;
+    grid-column: 1/3;
+    grid-row: 5/6;
+    justify-self: center;
+    margin-top: 15rem;
+    
+  }
+   button{
+    
+    top: 100px;
+    right: 5px;
     font-size: 16px;
     font-weight: 800;
     color: var(--borda);
@@ -49,4 +77,25 @@
     color: var(--cor-do-botao);
     background: var(--borda);
     transition: 250ms;
+  }
+  @media(width:720px){
+    .discover-titulo{
+      font-size: 60px;
+      justify-self: center;
+    }
+    .discover-texto{
+      font-size: 30px;
+      grid-column: 1/3;
+      justify-self: center;
+    }
+    button{
+        width: 250px;
+        height: 30px;
+        font-size: 10px;
+    }
+  }
+  @media(width:360px){
+    .discover{
+      display: none;
+    }
   }

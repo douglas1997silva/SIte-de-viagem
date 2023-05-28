@@ -15,17 +15,20 @@
     flex-wrap: wrap;
     column-gap: 2rem;
 }
+/*titulo*/
 .topicos-titulo{
     color:var(--topico-texto);
     font-size: 34px;
     font-weight: 800;
     margin-bottom: 1rem;
 }
+/*o paragrafo*/
 .topicos-texto{
     color: var(--borda);
     font-size: 64px;
     font-weight: 800;
 }
+/* botoes de pais*/
 .topicos-link button{
     width: 250px;
     height: 75px;
@@ -41,5 +44,14 @@
 .topicos-link button:hover{
     color: var(--cor-do-botao);
     background: var(--borda);
+    border: 3px solid var(--cor-do-botao);
     transition: 250ms;
+}
+@media(width:360px){
+    .topicos-titulo{
+        font-size: 15px;
+    }
+    .topicos-texto{
+        font-size: 30px;
+    }
 }

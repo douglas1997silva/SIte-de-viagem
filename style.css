@@ -1,5 +1,5 @@
-@import url(./styles/cabecalho.css);
-@import url(./styles/banner.css);
+
+@import url(./styles/navbar.css);
 @import url(./styles/viagem.css);
 @import url(./styles/discover.css);
 @import url(./styles/topicos.css);
@@ -14,13 +14,36 @@
     --placehouder:#AFA0A0;
     --cor-de-creditos:#696060;
 }
+.discover{
+    background: url(./Img/banner\ do\ aviao.png) no-repeat center ;
+   
+    background-size: cover;
+    width: 100%;
+    height: 38em;
+    
+    
+    
+} 
+@media(width:720px){
+    .discover{
+        width: 100%;
+        height: 38em;
+    }
+}
 
     
-
+header{
+    background: url(.//Img/Rectangle\ 4.png)no-repeat top  ;
+    background-position-y: top;
+    background-size: 1800px 750px;
+}
+    
  body{
-    background: url(.//Img/Rectangle\ 4.png)no-repeat 100%;
-    background-position: top;
-    background-size: 1400px;
+    height: 100vh;
+    width: 100%;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    
  }
+ 
+
